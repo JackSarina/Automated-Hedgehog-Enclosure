@@ -2,10 +2,7 @@
 
 > A low-cost (~$200), low-stress, smart bioactive enclosure for hedgehog recovery, featuring automated environmental monitoring and non-invasive computer vision tracking.
 
-<p align="center">
-  <img src="./github_qr_code.png" width="180" alt="Scan to view repository">
-</p>
-<p align="center"><em>Scan to view live documentation, schematics, and source code.</em></p>
+(./docs/images/final_build.png)
 
 ---
 
