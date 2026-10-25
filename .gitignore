@@ -1,0 +1,54 @@
+# ==========================================
+# Python (Raspberry Pi & Local Tools)
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual Environments
+venv/
+env/
+ENV/
+.venv/
+
+# PyTorch / Machine Learning Output & Datasets
+*.pt
+*.tflite
+*.onnx
+runs/
+*.log
+
+# Jupyter Notebooks / IDEs
+.ipynb_checkpoints/
+.vscode/
+.idea/
+
+# ==========================================
+# C / C++ & Arduino Firmware
+# ==========================================
+# Compiled binaries, objects, & libraries
+*.o
+*.out
+*.obj
+*.so
+*.a
+*.elf
+*.hex
+*.bin
+
+# Arduino IDE / PlatformIO build artifacts
+.pio/
+.clang-format
+build/
+*.deps
+
+# ==========================================
+# Operating System & Temp Files
+# ==========================================
+.DS_Store
+Thumbs.db
+*.swp
+*.tmp
+*~
