@@ -20,17 +20,16 @@ Wild or recovering hedgehogs experience high stress in traditional clinical setu
 ---
 
 ## Bill of Materials & Hardware
-*Status: 🟢 Sourced | ⏳ Awaiting Delivery | 🚀 Assembled*
 
-| Component | Quantity | Purpose | Status |
+| Component | Quantity | Purpose | 
 | :--- | :---: | :--- | :---: |
-| **Raspberry Pi 3 Model B** | 1 | Camera server, Web UI, Data logging | 🟢 Sourced |
-| **Arduino MCU** | 1 | Sensor data processing & motor control | 🟢 Sourced |
-| **Raspberry Pi Camera Module** | 1 | Overhead visual tracking | 🟢 Sourced |
-| **IR Break-Beam Sensors** | 1 pair | Entry/exit monitoring | 🟢 Sourced |
-| **Hall-Effect Sensor Module** | 1 | Running wheel revolution counting | 🟢 Sourced |
-| **SG90 Servo Motor** | 1 | Food/treat dispenser actuation | 🟢 Sourced |
-| **Enclosure Frame & Substrate** | N/A | Bioactive habitat structure | ⏳ Awaiting Delivery |
+| **Raspberry Pi 3 Model B** | 1 | Camera server, Web UI, Data logging |
+| **Arduino MCU** | 1 | Sensor data processing & motor control | 
+| **Raspberry Pi Camera Module (Wide View)** | 1 | Overhead visual tracking | 
+| **IR Break-Beam Sensors** | 1 pair | Entry/exit monitoring | 
+| **Hall-Effect Sensor Module** | 1 | Running wheel revolution counting | 
+| **SG90 Servo Motor** | 1 | Food/treat dispenser actuation | 
+| **Substrate** | Quantity based on enclosure size | Bioactive habitat structure | 
 
 > *<!-- Add notes or specific model part numbers here as parts arrive -->*
 
@@ -61,10 +60,10 @@ The system utilizes a split-architecture design:
 - [x] Initial conceptual design & Pugh matrix evaluation
 - [x] Baseline MCU firmware & Python script drafts
 - [x] Cardboard physical layout prototyping
-- [ ] Final enclosure material assembly & bioactive setup
-- [ ] Electrical control box wiring & GX12/GX16 connector installation
-- [ ] YOLOv5n model export (`.tflite`) and edge deployment on Pi 3B
-- [ ] 48-hour system testing and data logging baseline run
+- [x] Final enclosure material assembly & bioactive setup
+- [x] Electrical control box wiring & din rail connections setup
+- [x] YOLOv5n model export (`.tflite`) and edge deployment on Pi 3B
+- [x] 48-hour system testing and data logging baseline run
 
 ---
 
