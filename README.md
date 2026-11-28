@@ -2,7 +2,7 @@
 
 > A low-cost (~$200), low-stress, smart bioactive enclosure for hedgehog recovery, featuring automated environmental monitoring and non-invasive computer vision tracking.
 
-(./docs/images/final_build.png)
+![Final Build](docs/photos/final_build.png)
 
 ---
 
@@ -52,18 +52,6 @@ The system utilizes a split-architecture design:
 * **`/software/`**: Contains Python scripts for the Raspberry Pi (camera stream, YOLOv5 inference, and serial parsing).
 * **`/hardware/`**: Contains mechanical design notes, CAD mockups, and layout schematics.
 * **`/docs/`**: Comprehensive documentation guides.
-
----
-
-## Project Roadmap & Current Status
-
-- [x] Initial conceptual design & Pugh matrix evaluation
-- [x] Baseline MCU firmware & Python script drafts
-- [x] Cardboard physical layout prototyping
-- [x] Final enclosure material assembly & bioactive setup
-- [x] Electrical control box wiring & din rail connections setup
-- [x] YOLOv5n model export (`.tflite`) and edge deployment on Pi 3B
-- [x] 48-hour system testing and data logging baseline run
 
 ---
 
