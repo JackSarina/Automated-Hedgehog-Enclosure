@@ -24,14 +24,15 @@ Wild or recovering hedgehogs experience high stress in traditional clinical setu
 | Component | Quantity | Purpose | 
 
 - | **Raspberry Pi 3 Model B** | 1 | Camera server, Web UI, Data logging |
-- | **Arduino MCU** | 1 | Sensor data processing & motor control | 
+- | **Arduino Mega MCU** | 1 | Sensor data processing & motor control | 
 - | **Raspberry Pi Camera Module (Wide View)** | 1 | Overhead visual tracking | 
 - | **IR Break-Beam Sensors** | 1 pair | Entry/exit monitoring | 
 - | **Hall-Effect Sensor Module** | 1 | Running wheel revolution counting | 
 - | **SG90 Servo Motor** | 1 | Food/treat dispenser actuation | 
-- | **Substrate** | Quantity based on enclosure size | Bioactive habitat structure | 
-
-> *<!-- Add notes or specific model part numbers here as parts arrive -->*
+- | **Substrate** | Quantity based on enclosure size | Bioactive habitat structure |
+- | **KY-037 Microphone Sensor** | 1 | Noise monitoring |
+- | **Hampster Running Wheel** | 1 | Allows for activity tracking using hall effect Sensor |
+- | **Neodymium Magnets** | 2 | Attached to running wheel for hall effect sensor |
 
 ---
 
@@ -39,7 +40,7 @@ Wild or recovering hedgehogs experience high stress in traditional clinical setu
 
 The system utilizes a split-architecture design:
 1. **Low-Level Layer (Arduino):** Handles millisecond-sensitive hardware pulses (break beams, wheel rotation, load cells) and communicates via USB Serial.
-2. **High-Level Layer (Raspberry Pi 3B):** Runs the CSI camera module, processes frames via lightweight YOLOv5n TFLite inference, and hosts the local web dashboard.
+2. **High-Level Layer (Raspberry Pi 3B):** Runs the camera module, processes frames via lightweight yolo11n + NCNN inference, and hosts the local web dashboard via Flask.
 
 *<!-- Add electrical box wiring diagram image into ./docs/images/ and reference it below: -->*
 <!-- ![Wiring Diagram](./docs/images/wiring_diagram.png) -->
