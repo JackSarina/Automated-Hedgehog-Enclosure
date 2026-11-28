@@ -40,9 +40,9 @@ Wild or recovering hedgehogs experience high stress in traditional clinical setu
 
 The system utilizes a split-architecture design:
 1. **Low-Level Layer (Arduino):** Handles millisecond-sensitive hardware pulses (break beams, wheel rotation, load cells) and communicates via USB Serial.
-2. **High-Level Layer (Raspberry Pi 3B):** Runs the camera module, processes frames via lightweight yolo11n + NCNN inference, and hosts the local web dashboard via Flask.
+2. **High-Level Layer (Raspberry Pi 3B):** Runs the camera module, processes frames via lightweight YOLOv11n + NCNN inference, and hosts the local web dashboard via Flask.
 
-[./hardware/wiring_schematic.png]
+![Wiring Schematic](hardware/wiring_schematic.png)
 
 ---
 
