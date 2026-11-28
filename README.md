@@ -22,6 +22,7 @@ Wild or recovering hedgehogs experience high stress in traditional clinical setu
 ## Bill of Materials & Hardware
 
 | Component | Quantity | Purpose | 
+
 | **Raspberry Pi 3 Model B** | 1 | Camera server, Web UI, Data logging |
 | **Arduino MCU** | 1 | Sensor data processing & motor control | 
 | **Raspberry Pi Camera Module (Wide View)** | 1 | Overhead visual tracking | 
