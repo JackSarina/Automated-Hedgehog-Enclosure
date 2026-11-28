@@ -23,13 +23,13 @@ Wild or recovering hedgehogs experience high stress in traditional clinical setu
 
 | Component | Quantity | Purpose | 
 
-**| **Raspberry Pi 3 Model B** | 1 | Camera server, Web UI, Data logging |
-**| **Arduino MCU** | 1 | Sensor data processing & motor control | 
-**| **Raspberry Pi Camera Module (Wide View)** | 1 | Overhead visual tracking | 
-**| **IR Break-Beam Sensors** | 1 pair | Entry/exit monitoring | 
-**| **Hall-Effect Sensor Module** | 1 | Running wheel revolution counting | 
-**| **SG90 Servo Motor** | 1 | Food/treat dispenser actuation | 
-**| **Substrate** | Quantity based on enclosure size | Bioactive habitat structure | 
+- | **Raspberry Pi 3 Model B** | 1 | Camera server, Web UI, Data logging |
+- | **Arduino MCU** | 1 | Sensor data processing & motor control | 
+- | **Raspberry Pi Camera Module (Wide View)** | 1 | Overhead visual tracking | 
+- | **IR Break-Beam Sensors** | 1 pair | Entry/exit monitoring | 
+- | **Hall-Effect Sensor Module** | 1 | Running wheel revolution counting | 
+- | **SG90 Servo Motor** | 1 | Food/treat dispenser actuation | 
+- | **Substrate** | Quantity based on enclosure size | Bioactive habitat structure | 
 
 > *<!-- Add notes or specific model part numbers here as parts arrive -->*
 
